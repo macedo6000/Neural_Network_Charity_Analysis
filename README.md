@@ -11,7 +11,7 @@ Neural Networks and Deep Learning Models were used to create a binary classifica
     - The variables that were neither targets nor variables were EIN and NAME. However, keeping the NAME column and binning seemed to help achieve favorable results.
     ![](./Resources/Preprocessed.png)
 
-- **Compiling, Training, and Evaluating the Model
+- **Compiling, Training, and Evaluating the Model**
     - How many neurons, layers, and activation functions did you select for your neural network model, and why? There are a total of three hidden layers. The first layer contains 100 neurons, second layer has 80  neurons, and the third layer has 30 neurons. The activation function used for the hidden layer is tanh. The activation function for the output layer is sigmoid. The reason for using this strategy is due to experimenting with the number or neurons, layers, and activation functions until the desired outcome was reached.
     ![](./Resources/model.png)
     - I was able to achieve the target performance at an accuracy of 79%.
